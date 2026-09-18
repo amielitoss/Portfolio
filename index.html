@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Carl Amiel Balita — Frontend Developer portfolio. HTML, CSS, JavaScript, and API-driven projects built while training toward a fullstack career.">
+    <meta name="keywords" content="portfolio, frontend developer, web developer, Carl Amiel Balita, alternance, France">
+    <meta name="author" content="Carl Amiel Balita">
+    <meta property="og:title" content="Carl Amiel Balita - Developer Portfolio">
+    <meta property="og:description" content="Frontend developer in training, building toward fullstack. View my projects and get in touch.">
+    <meta property="og:type" content="website">
+    <title>Carl Amiel Balita - Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+
+<header class="site-header">
+    <nav class="main-nav">
+        <ul class="nav-links" id="nav-links">
+        <li><a href="#home" data-i18n="navHome">Home</a></li>
+        <li><a href="#about" data-i18n="navAbout">About</a></li>
+        <li><a href="#skills" data-i18n="navSkills">Skills</a></li>
+        <li><a href="#projects" data-i18n="navProjects">Projects</a></li>
+        <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+        </ul>
+        <select name="language" id="lang-select" class="lang-select">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+        </select>
+        <button class="hamburger-btn" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+           <h1 data-i18n="heroTitle">Hi, I'm Carl Amiel Balita</h1>
+           <h2 id="typing-text"></h2>
+           <p data-i18n="heroSubtitle">Aspiring fullstack developer actively seeking an alternance (work-study) opportunity in France. I love building things for the web, and I'm always looking to improve, learn something new, and grow into a solid, reliable developer — one real project at a time.</p>
+           <div class="social-links">
+            <a href="https://www.linkedin.com/in/carl-amiel-balita-470b562bb/" class="social-icon">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linkedin.svg" alt="LinkedIn" width="24" height="24">
+            </a>
+            <a href="https://www.facebook.com/amielitosss/" class="social-icon">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/facebook.svg" alt="Facebook" width="24" height="24">
+            </a>
+            <a href="https://www.instagram.com/crl_blt/" class="social-icon">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/instagram.svg" alt="Instagram" width="24" height="24">
+            </a>
+            <a href="https://wa.me/33629219805" class="social-icon">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/whatsapp.svg" alt="WhatsApp" width="24" height="24">
+            </a>
+            <a href="https://github.com/amielitoss" class="social-icon github-btn">
+                 <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/github.svg" alt="GitHub" width="24" height="24">
+            </a>
+  
+            </div>
+            <a href="#projects" class="cta-btn" data-i18n="heroCta">View my Works</a>
+        </div>
+        <div class="hero-photo reveal">
+            <img src="images/profile.png" alt="profile" loading="lazy">
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2 class="reveal reveal-down" data-i18n="aboutTitle">About Me</h2>
+    <div class="about-content">
+        <div class="about-photo reveal reveal-left">
+            <img src="images/profile.png" alt="profile" loading="lazy">
+        </div>
+        <div class="about-text">
+            <p class="reveal reveal-left" data-i18n="aboutP1">I'm a Web developer based in France. I recently completed a 9-month training program, including a 2-month internship — and while the final exam didn't go the way I'd hoped, it became one of the biggest motivators of my career so far. Since then, I've kept building: practicing daily through real portfolio projects, deepening my JavaScript fundamentals, and preparing to take the next step into React and backend development.</p>
+            <p class="reveal reveal-left" data-i18n="aboutP2">I'm currently pursuing a work/study program (alternance) to earn a professional diploma while gaining hands-on experience with a team. I'm motivated, consistent, and genuinely enjoy the process of building things — from planning a layout to debugging the trickiest edge case.</p>
+        </div>
+    </div>
+    <h3 class="reveal reveal-down" data-i18n="aboutHobbiesTitle">A few things I enjoy</h3>
+    <ul class="hobby-badges reveal reveal-down">
+        <li data-i18n="hobbyGaming">🎮 Gaming</li>
+        <li data-i18n="hobbyBasketball">🏀 Basketball</li>
+        <li data-i18n="hobbyGuitar">🎸 Guitar</li>
+        <li data-i18n="hobbyCoding">💻 Coding</li>
+        <li data-i18n="hobbyNature">🌿 Nature</li>
+        <li data-i18n="hobbyAdventure">🏔️ Adventure</li>
+    </ul>
+</section>
+
+<section id="skills" class="skills">
+    <h2 class="reveal reveal-down" data-i18n="skillsTitle">Skills</h2>
+    
+    <h3 class="reveal reveal-down" data-i18n="skillsHave">Skills I Have</h3>
+    <ul class="skills-grid reveal reveal-down">
+        <li class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" alt="HTML5"/>
+        </li>
+        <li class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" alt="CSS3"/>
+        </li>
+        <li class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JAVASCRIPT"/>
+        </li>
+        <li class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg" alt="ASTRO"/>
+        </li>
+        <li class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg" alt="JEST"/>
+        </li>
+        <li class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jasmine/jasmine-original-wordmark.svg" alt="JASMINE"/>
+        </li>
+        <li class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="GIT"/>
+        </li>
+        
+    </ul>
+
+    <h3 class="reveal reveal-down" data-i18n="skillsLearning">Currently Learning</h3>
+    <ul class="skills-grid reveal reveal-down">
+        <li class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" alt="REACT"/>
+        </li>
+        <li class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" alt="NODE"/>
+        </li>
+        <li class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" alt="MONGODB"/>
+        </li>
+        <li class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" alt="SQL"/>
+        </li>
+        <li class="skill-item">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" alt="EXPRESS"/>
+        </li>
+        
+    </ul>
+</section>
+
+<section id="projects" class="projects">
+    <h2 class="reveal reveal-down" data-i18n="projectsTitle">Projects</h2>
+    <ul class="project-grid">
+        <li class="project-card reveal reveal-pop">
+            <a href="https://net-flix-clone-project-carlbalita.netlify.app">
+                <img src="images/netflix.png" alt="Netflix Clone screenshot" loading="lazy">
+            </a>
+            <h3 data-i18n="projNetflixTitle">Netflix Clone</h3>
+            <p data-i18n="projNetflixDesc">A responsive frontend clone of Netflix's landing page, featuring live trending data from TMDB, custom carousel controls, and full English/French translation support.</p>
+           <a href="https://github.com/amielitoss" target="_blank" rel="noopener noreferrer" class="project-btn github-btn">GitHub</a>
+        </li>
+        <li class="project-card reveal reveal-pop">
+            <a href="https://flavorfind-recipeweb-cbalita.netlify.app">
+                <img src="images/flavorfind.png" alt="FlavorFind screenshot" loading="lazy">
+            </a>
+            <h3 data-i18n="projFlavorfindTitle">FlavorFind</h3>
+            <p data-i18n="projFlavorfindDesc">A recipe discovery app with search, category browsing, a random recipe generator, and a favorites system powered by localStorage — no backend required.</p>
+           <a href="https://github.com/amielitoss/Recipe-Website" target="_blank" rel="noopener noreferrer" class="project-btn github-btn">GitHub</a>
+        </li>
+        <li class="project-card reveal reveal-pop">
+            <a href="https://weather-web-cbalita.netlify.app">
+                <img src="images/weather.png" alt="WeatherWave screenshot" loading="lazy">
+            </a>
+            <h3 data-i18n="projWeatherTitle">WeatherWave</h3>
+            <p data-i18n="projWeatherDesc">A weather dashboard using the OpenWeatherMap API, featuring live geolocation, Chart.js temperature trends, and dynamic backgrounds based on real-time conditions.</p>
+           <a href="https://github.com/amielitoss/Weather-Website" target="_blank" rel="noopener noreferrer" class="project-btn github-btn">GitHub</a>
+        </li>
+    </ul>
+
+    <ul class="project-grid extra-projects hidden">
+        <li class="project-card reveal reveal-pop">
+            <a href="https://amazon-clone-balita.netlify.app">
+                <img src="images/amazon.png" alt="Amazon Clone screenshot" loading="lazy">
+            </a>
+            <h3 data-i18n="projAmazonTitle">Amazon Clone</h3>
+            <p data-i18n="projAmazonDesc">An e-commerce clone with a full OOP cart refactor, Jasmine unit tests, and async order/tracking functionality. Project built by me while watching SuperSimpleDev</p>
+           <a href="https://github.com/amielitoss/Amazon-Clone" target="_blank" rel="noopener noreferrer" class="project-btn github-btn">GitHub</a>
+        </li>
+        <li class="project-card reveal reveal-pop">
+            <a href="https://calculator-carl-balita.netlify.app">
+                <img src="images/calculator.png" alt="Calculator screenshot" loading="lazy">
+            </a>
+            <h3 data-i18n="projCalcTitle">Calculator</h3>
+            <p data-i18n="projCalcDesc">A simple, functional calculator app built to practice core JavaScript logic and DOM manipulation fundamentals.</p>
+           <a href="https://github.com/amielitoss/Calculator" target="_blank" rel="noopener noreferrer" class="project-btn github-btn">GitHub</a>
+        </li>
+        <li class="project-card reveal reveal-pop">
+            <a href="https://rps-game-cbalita.netlify.app">
+                <img src="images/rps.png" alt="Rock Paper Scissors screenshot" loading="lazy">
+            </a>
+            <h3 data-i18n="projRpsTitle">Rock Paper Scissors</h3>
+            <p data-i18n="projRpsDesc">A classic Rock Paper Scissors game against the computer, built to practice conditional logic, randomization, and score tracking.</p>
+           <a href="https://github.com/amielitoss/Rock-Paper-Sci" target="_blank" rel="noopener noreferrer" class="project-btn github-btn">GitHub</a>
+        </li>
+        <li class="project-card reveal reveal-pop">
+            <a href="https://todolist-cbalita.netlify.app">
+                <img src="images/todo.png" alt="To-Do List screenshot" loading="lazy">
+            </a>
+            <h3 data-i18n="projTodoTitle">To-Do List</h3>
+            <p data-i18n="projTodoDesc">A simple to-do list app for adding, completing, and removing tasks — built to practice array manipulation and dynamic DOM updates.</p>
+           <a href="https://github.com/amielitoss/Todo-List" target="_blank" rel="noopener noreferrer" class="project-btn github-btn">GitHub</a>
+        </li>
+    </ul>
+
+    <button class="show-more-btn reveal reveal-up" data-i18n="showMoreBtn">Show More Projects</button>
+
+    <p class="coming-soon" data-i18n="comingSoon">Fullstack projects — coming soon</p>
+</section>
+
+<section id="contact" class="contact">
+    <h2 class="reveal reveal-down" data-i18n="contactTitle">Contact</h2>
+    <div class="contact-content reveal reveal-down">
+        <div class="contact-info">
+            <p data-i18n="contactIntro">Currently looking for an alternance (work-study) opportunity — if you're hiring or know of an opening, I'd love to hear from you.</p>
+            
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/carl-amiel-balita-470b562bb/" class="social-icon">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/linkedin.svg" alt="LinkedIn" width="24" height="24">
+                </a>
+                <a href="https://www.facebook.com/amielitosss/" class="social-icon">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/facebook.svg" alt="Facebook" width="24" height="24">
+                </a>
+                <a href="https://www.instagram.com/crl_blt/" class="social-icon">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/instagram.svg" alt="Instagram" width="24" height="24">
+                </a>
+                <a href="https://wa.me/33629219805" class="social-icon">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/whatsapp.svg" alt="WhatsApp" width="24" height="24">
+                </a>
+                <a href="https://github.com/amielitoss" class="social-icon github-btn">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/github.svg" alt="GitHub" width="24" height="24">
+                </a>
+
+
+            <div class="contact-details">
+                <p class="contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
+                    <span>+33 6 29 21 98 05</span>
+                </p>
+                <p class="contact-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+                    <span>amiel.balita23@gmail.com</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+            <form class="contact-form" id="contact-form" action="https://formspree.io/f/xkjweono" method="POST">
+            <input type="text" name="name" data-i18n-placeholder="contactNamePlaceholder" placeholder="Your Name" required>
+            <input type="email" name="email" data-i18n-placeholder="contactEmailPlaceholder" placeholder="Your Email" required>
+            <textarea name="message" data-i18n-placeholder="contactMessagePlaceholder" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="cta-btn" data-i18n="contactSendBtn">Send Message</button>
+            </form>
+            <p class="form-status" id="form-status"></p>
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <p data-i18n="footerText">&copy; 2026 Carl Amiel Balita — Portfolio Website</p>
+</footer>
+
+    <script type="module" src="scripts/script.js"></script>
+</body>
+</html>
