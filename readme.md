@@ -79,3 +79,7 @@ Motivated, consistent, and always building.
 
 - LinkedIn: [carl-amiel-balita](https://www.linkedin.com/in/carl-amiel-balita-470b562bb/)
 - Email: amiel.balita23@gmail.com
+
+## Live Demo
+
+[View my Portfolio Live](https://carl-balita.netlify.app)
