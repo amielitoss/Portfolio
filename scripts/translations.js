@@ -30,6 +30,9 @@ export const translations = {
 
         projectsTitle: "Projects",
 
+        projJobtrackTitle: "Jobtrackly",
+        projJobtrackDesc: "A responsive job application tracking dashboard built with React, featuring application management, status tracking, interview organization, analytics charts, dark mode, localStorage persistence, and a fully responsive accessible interface.",
+
         projNetflixTitle: "Netflix Clone",
         projNetflixDesc: "A responsive frontend clone of Netflix's landing page, featuring live trending data from TMDB, custom carousel controls, and full English/French translation support.",
 
@@ -98,6 +101,9 @@ export const translations = {
         skillsLearning: "En cours d'apprentissage",
 
         projectsTitle: "Projets",
+
+        projJobtrackTitle: "Jobtrackly",
+        projJobtrackDesc: "Un tableau de bord responsive de suivi des candidatures développé avec React, permettant de gérer les candidatures, suivre leur statut, organiser les entretiens, consulter des graphiques d’analyse, utiliser un mode sombre et conserver les données avec localStorage, le tout dans une interface accessible et adaptée à tous les écrans.",
 
         projNetflixTitle: "Clone Netflix",
         projNetflixDesc: "Un clone responsive de la page d'accueil de Netflix, avec les tendances en direct via l'API TMDB, un carrousel personnalisé, et un système complet de traduction français/anglais.",
