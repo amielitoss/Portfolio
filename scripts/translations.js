@@ -13,8 +13,8 @@ export const translations = {
         
 
         aboutTitle: "About Me",
-        aboutP1: "I'm a self-taught developer based in France. I recently completed a 9-month training program, including a 2-month internship and while the final exam didn't go the way I'd hoped, it became one of the biggest motivators of my career so far. Since then, I've kept building: practicing daily through real portfolio projects, deepening my JavaScript fundamentals, and preparing to take the next step into React and backend development.",
-        aboutP2: "I'm currently pursuing a work/study program (alternance) to earn a professional diploma while gaining hands-on experience with a team. I'm motivated, consistent, and genuinely enjoy the process of building things from planning a layout to debugging the trickiest edge case.",
+        aboutP1: "I'm a web developer based in France, passionate about building modern, interactive, and responsive web applications. After completing a nine-month intensive web development training program, including a two-month internship working on an e-commerce project, I continued developing my skills through personal projects. Today, I focus on front-end development using HTML, CSS, JavaScript, React, and TypeScript. Through personal projects, I continue to strengthen my problem-solving skills, explore modern development practices, and gain hands-on experience building responsive, interactive web applications.",
+        aboutP2: "I'm also expanding my knowledge of back-end development with Node.js, Express, and databases, with the goal of becoming a full-stack developer. I'm preparing to join Ironhack's work-study training program and actively looking for an apprenticeship opportunity where I can apply my skills, contribute to real projects, and learn alongside experienced developers. Curious, motivated, and persistent, I enjoy learning new technologies, solving problems, and turning ideas into functional applications.",
         aboutHobbiesTitle: "A few things I enjoy",
 
         hobbyGaming: "🎮 Gaming",
@@ -85,10 +85,9 @@ export const translations = {
         
 
         aboutTitle: "À propos de moi",
-        aboutP1: "Je suis développeur autodidacte basé en France. J'ai récemment terminé une formation intensive de 9 mois, incluant un stage de 2 mois et bien que l'examen final ne se soit pas déroulé comme je l'espérais, cela est devenu l'une des plus grandes motivations de ma carrière jusqu'à présent. Depuis, je n'ai cessé de progresser : je pratique chaque jour à travers de vrais projets de portfolio, j'approfondis mes bases en JavaScript, et je me prépare à franchir la prochaine étape vers React et le développement backend.",
-        aboutP2: "Je poursuis actuellement une alternance pour obtenir un diplôme professionnel tout en acquérant une expérience concrète au sein d'une équipe. Je suis motivé, constant, et j'apprécie sincèrement le processus de création de la conception d'une interface au débogage du bug le plus tenace.",
-        aboutHobbiesTitle: "Quelques choses que j'aime",
-
+        aboutP1: "Je suis développeur web basé en France, passionné par la création d'applications modernes, interactives et responsive. Après une formation intensive de neuf mois en développement web, comprenant un stage de deux mois sur un projet e-commerce, j'ai continué à développer mes compétences à travers des projets personnels. Aujourd'hui, je me concentre sur le développement frontend avec HTML, CSS, JavaScript, React et TypeScript. À travers mes projets personnels, je continue à renforcer mes compétences en résolution de problèmes, à découvrir les pratiques modernes du développement web et à acquérir de l'expérience dans la création d'applications responsive et interactives.",
+        aboutP2: "Je développe également mes connaissances en backend avec Node.js, Express et les bases de données, avec pour objectif de devenir développeur Full Stack. Je prépare actuellement une formation en alternance avec Ironhack et recherche activement une entreprise où je pourrai mettre mes compétences en pratique, contribuer à des projets concrets et apprendre aux côtés de développeurs expérimentés. Curieux, motivé et persévérant, j'aime découvrir de nouvelles technologies, résoudre des problèmes et transformer mes idées en applications fonctionnelles.",
+        aboutHobbiesTitle: "Quelques choses que j’apprécie",
         hobbyGaming: "🎮 Jeux vidéo",
         hobbyBasketball: "🏀 Basketball",
         hobbyGuitar: "🎸 Guitare",
