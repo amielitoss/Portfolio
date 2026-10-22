@@ -39,6 +39,9 @@ export const translations = {
         projFlavorfindTitle: "FlavorFind",
         projFlavorfindDesc: "A recipe discovery app with search, category browsing, a random recipe generator, and a favorites system powered by localStorage no backend required.",
 
+        projPokeTitle: "PokeGrid",
+        projPokeDesc: " A responsive Pokédex app built with React and TypeScript using the PokeAPI, featuring search, filters, pagination, detailed Pokémon data, dark mode, and reusable components.",
+
         projWeatherTitle: "WeatherWave",
         projWeatherDesc: "A weather dashboard using the OpenWeatherMap API, featuring live geolocation, Chart.js temperature trends, and dynamic backgrounds based on real-time conditions.",
 
@@ -109,6 +112,9 @@ export const translations = {
 
         projFlavorfindTitle: "FlavorFind",
         projFlavorfindDesc: "Une application de découverte de recettes avec recherche, navigation par catégorie, générateur de recette aléatoire, et un système de favoris via localStorage sans backend.",
+
+        projPokeTitle: "PokeGrid",
+        projPokeDesc: " Une application Pokédex responsive développée avec React et TypeScript à partir de la PokeAPI, avec recherche, filtres, pagination, données détaillées sur les Pokémon, mode sombre et composants réutilisables.",
 
         projWeatherTitle: "WeatherWave",
         projWeatherDesc: "Un tableau de bord météo utilisant l'API OpenWeatherMap, avec géolocalisation en direct, graphiques de température via Chart.js, et arrière-plans dynamiques selon les conditions réelles.",
